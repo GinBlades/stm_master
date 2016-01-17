@@ -1,0 +1,46 @@
+AllCops:
+  Include:
+    - 'Gemfile'
+  Exclude:
+    - 'bin/**/*'
+    - 'lib/templates/**/*'
+    - 'db/schema.rb'
+
+Rails:
+  Enabled: true
+
+Style/StringLiterals:
+  EnforcedStyle: "double_quotes"
+
+Metrics/LineLength:
+  Max: 120
+  Exclude:
+    - "config/**/*"
+
+Metrics/MethodLength:
+  Exclude:
+    - "db/migrate/*"
+
+Metrics/AbcSize:
+  Exclude:
+    - "db/migrate/*"
+
+Rails/Output:
+  Exclude:
+    - "db/seeds.rb"
+
+Style/AlignHash:
+  Enabled: false
+
+Style/AlignParameters:
+  Enabled: false
+
+Style/BlockComments:
+  Exclude:
+    - "spec/spec_helper.rb"
+
+Style/Documentation:
+  Enabled: false
+
+Style/IndentationConsistency:
+  EnforcedStyle: "rails"
