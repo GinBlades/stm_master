@@ -8,5 +8,5 @@ SETUP_PROC = lambda do |env|
 end
 
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :so, setup: SETUP_PROC
+  provider :stm, setup: SETUP_PROC
 end
