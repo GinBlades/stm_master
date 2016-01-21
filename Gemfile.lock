@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/GinBlades/stm_strategy.git
-  revision: 5e76331b58237f9ceac0ee0030c7e6ba5af5ac45
+  revision: 18772975e2caf66fb0dc54b2bf80d851c4378d17
   specs:
     stm_strategy (0.0.4)
       omniauth
