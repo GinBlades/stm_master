@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/GinBlades/stm_strategy.git
-  revision: 18772975e2caf66fb0dc54b2bf80d851c4378d17
+  revision: 191942168c9fad05f7b84850ffba0cce7f82f68b
   specs:
     stm_strategy (0.0.4)
       omniauth
@@ -149,7 +149,7 @@ GEM
       open4 (~> 1.3.4)
       rake
     mini_portile2 (2.0.0)
-    minitest (5.8.3)
+    minitest (5.8.4)
     modernizr-rails (2.7.1)
     multi_json (1.11.2)
     multipart-post (2.0.0)
